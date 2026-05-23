@@ -1,0 +1,6 @@
+---
+--name: Apply Ubuntu 24.04 DISA STIG Hardening
+  hosts: ubuntu_servers
+  become: yes
+  roles:
+    - ubuntu_stig
