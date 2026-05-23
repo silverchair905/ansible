@@ -3,4 +3,4 @@
   hosts: ubuntu_servers
   become: yes
   roles:
-    - ubuntu_stig
+  - ubuntu_stig
